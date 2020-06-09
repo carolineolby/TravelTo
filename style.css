@@ -1,0 +1,488 @@
+body {
+    background: #000000; 
+    margin: 0;
+    padding: 0; 
+}
+
+h1, p {
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff; 
+    font-weight: 800;
+    margin: 0;
+    padding: 0; 
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff; 
+    font-weight: 800;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #868686; 
+}
+
+.Link_Signup_Login, .Link_Signup_Login-destination {
+    padding-top: 20px; 
+    margin-left: 30px; 
+    font-size: 15px; 
+}
+
+input, button {
+    border-style: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    padding: 5px; 
+    margin: 5px; 
+}
+
+button {
+    cursor: pointer;
+}
+
+.Echo {
+    color: #ff5100; 
+    margin-left: 50px; 
+}
+
+.Choice {
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px; 
+    margin-top: 50px; 
+    color: #c7c7c7; 
+}
+
+.Resume {
+    color: #009600; 
+    margin-left: 50px; 
+}
+
+
+/* INDEX (LOGIN) & SIGNUP & LOGOUT */
+.Index {
+    background-image: url(img/backgroundIndex.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.Link_Getinspo {
+    margin-left: 90px; 
+    font-size: 15px; 
+}
+
+.Index_Headline, .SignUp_Headline, .LogOut_Headline {
+    font-size: 220px;
+    margin-left: 40px; 
+    margin-top: 130px; 
+    opacity: 0.8;
+    color: #ff5100; 
+}
+
+.Index_Paragraph, .SignUp_Paragraph {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: 20px; 
+    text-align: center;
+}
+
+.Form_Index, .Form_SignUp {
+    margin-top: 20px; 
+    text-align: center;
+}
+
+.Form_btn-Container {
+    margin-top: 20px; 
+    margin-bottom: 100px;
+}
+
+.Index_Btn, .Signup_Btn {
+    background: #ff5100; 
+    font-weight: 800;
+    opacity: 0.7;
+}
+
+/* SIRNUP */
+.SignUp {
+    background-image: url(img/backgroundSignup.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.SignUp_Headline {
+    color: #0110db; 
+}
+
+.Signup_Btn {
+    background: #0110db; 
+}
+
+
+
+
+/* HOME */
+.Home {
+    background-image: url(img/backgroundHome.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+nav {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    height: 150px; 
+}
+
+.NavLink_Home-Destination, .NavLink_Home-YourJourney, .NavLink_Home-GetInspo {
+    margin-left: 110px; 
+    margin-right: 110px; 
+    margin-top: 60px; 
+    font-weight: 800;
+    font-size: 30px; 
+    color: #009600; 
+    opacity: 0.8;
+}
+
+.NavLink_Home-YourJourney {
+    color: #8c00ff; 
+}
+
+.NavLink_Home-GetInspo {
+    color: #ffc400; 
+}
+
+.Home_Headline {
+    font-size: 250px; 
+    margin-left: 20px;
+    color: #0110db; 
+}
+
+
+
+
+/* GET INSPO */
+.GetInspo {
+    background-image: url(img/backgroundGetinspo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.GetInspo_Headline, .YourJourney_Headline, .Booking_Headline, .SubmitBooking_Headline {
+    font-size: 220px;
+    margin-left: 40px; 
+    margin-top: 130px; 
+    opacity: 0.8;
+    color: #ffc400; 
+}
+
+.GetInspo_Section, .YourJourney_Section, .Booking_Section {
+    background: #ffffff;
+    margin-top: 100px; 
+    height: auto; 
+}
+
+.GetInspo_Gallery {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.GetInspo_Img {
+    padding: 20px; 
+}
+
+.GetInspo_Section-Quote {
+    background-image: url(img/backgroundQuote.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.GetInspo_Quote {
+    font-weight: 800;
+    font-size: 20px; 
+    color: #ffc400; 
+    padding: 200px; 
+}
+
+
+
+/* YOUR JOURNEY */
+.YourJourney {
+    background-image: url(img/backgroundYourJourney.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.YourJourney_Section-ReadPosts {
+    background: #ffffff;
+    margin-top: 100px; 
+    height: auto; 
+}
+
+.YourJourney_Headline {
+    font-size: 190px;
+    color: #8c00ff; 
+}
+
+.YourJourney_Paragraph, .Booking_Paragraph, .SubmitBooking_Paragraph {
+    font-size: 50px; 
+    color: #8c00ff; 
+    font-weight: 800;
+    padding: 100px; 
+}
+
+.YourJourney_Form-inputTitle {
+    margin-top: 100px; 
+    width: 80%; 
+    height: 40px; 
+    margin-bottom: 10px; 
+}
+
+.YourJourney_Form-inputContent {
+    width: 80%; 
+    height: 300px; 
+}
+
+.YourJourney_Btn, .SubmitBooking_Btn, .UpdateBooking_Btn  {
+    background: #8c00ff;  
+    font-weight: 800;
+    justify-content: center;
+    margin-top: 60px; 
+    text-align: center;
+    font-size: 40px; 
+}
+
+.YourJourney_Section-ReadPosts {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    height: auto; 
+}
+
+.YourJourney_Post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px; 
+}
+
+.YourJourney_Post_Container {
+    margin: 10px; 
+    background: #f0f0f0; 
+    width: 400px; 
+}
+
+.YourJourney_Post-Headline, .YourJourney_Post-Headline-Submit {
+    color: #000000; 
+    text-align: center;
+    font-size: 40px; 
+    margin-top: 40px; 
+    padding-bottom: 50px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+}
+
+.YourJourney_Post_Link-Container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px; 
+}
+
+.YourJourney_Post-LinkUD, .SubmitBooking_Post-LinkUD {
+    font-size: 20px; 
+    color: #8c00ff;  
+    text-align: center;
+}
+
+
+/* BOOKING */ 
+.Booking {
+    background-image: url(img/backgroundBooking.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.Booking_Headline {
+    color: #009600;
+}
+
+.Booking_Paragraph {
+    color: #009600;
+}
+
+.Booking_Section-Form {
+    background-image: url(img/backgroundBookingSection.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 600px;
+}
+
+.Booking_Form-Paragraph {
+    font-size: 50px; 
+    font-weight: 800;
+    padding-top: 130px; 
+    text-align: center;
+}
+
+.Booking_Form {
+    text-align: center;
+} 
+
+select {
+    width: 200px; 
+    font-size: 15px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    margin-top: 20px; 
+}
+
+.Booking_Form-Btn {
+    background: #009600;
+}
+
+.ToNextPage_Form {
+    display: flex; 
+    justify-content: center;
+}
+
+.ToNextPage_Form-Button {
+    text-align: center;
+}
+
+
+/* BACKPACKING */
+.Backpacking {
+    background-image: url(img/backgroundBackpacking.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 700px; 
+}
+
+.Backpacking_Section {
+    background: #ffffff;
+    height: auto; 
+}
+
+/* LANGUAGE */ 
+.Language {
+    background-image: url(img/backgroundLanguage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 700px; 
+}
+
+/* VOLUNTEER */ 
+.Volunteer {
+    background-image: url(img/backgroundVolunteer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 700px; 
+}
+
+
+
+/* SUBMIT BOOKING */
+.SubmitBooking_Headline {
+    color: #009600;
+}
+
+.SubmitBooking_Btn {
+    background: #009600;
+}
+
+.SubmitBooking_Paragraph {
+    color: #009600;
+}
+
+.SubmitBooking_Post-LinkUD  {
+    color: #009600;
+}
+
+
+
+/* DELETE POST */
+.DeletePost_Headline, .DeleteBooking_Headline, .UpdatePost_Headline, .UpdateBooking_Headline {
+    font-size: 190px;
+    margin-left: 40px; 
+    margin-top: 130px; 
+    opacity: 0.8;
+    color: #8c00ff; 
+}
+
+.DeletePost_Btn, .DeleteBooking_Btn {
+    background: #8c00ff;  
+    font-weight: 800;
+    justify-content: center;
+    margin-top: 60px; 
+    text-align: center;
+    font-size: 40px; 
+    margin-top: 15px; 
+    margin-left: 200px; 
+}
+
+
+/* UPDATE POST */
+.UpdatePost_Headline-Form {
+    margin-top: 40px; 
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* DELETE BOOKING */
+.DeleteBooking_Headline, .UpdateBooking_Headline {
+    color: #009600;
+}
+
+.DeleteBooking_Btn {
+    background: #009600;
+}
+
+.Delete_Post-paragraph {
+    color: #009600;
+    font-size: 200px; 
+}
+
+
+/* UPDATE BOOKING */
+.UpdateBooking_Headline {
+    margin-bottom: 50px; 
+}
+
+.UpdateBooking_Btn {
+    background: #009600;
+    margin-left: 30px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
